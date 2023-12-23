@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teenu Joshi</title>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+
+</head>
+<style>
+   
+
+  @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+  body {
+    
+  
+    /* background-image: url(back.jpeg); */
+    /* background-image: url(bb.jpeg); */
+    /* background-image: url(b.jpeg); */
+  
+    border-color: blue;
+    background-color: black;
+
+  }
+
+  .abcd {
+    margin-left: 225px;
+    margin-top: 10px;
+    font-size: small;
+    color: #fff;
+    
+  }
+
+  
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+  
+  .area{
+    /* font-size: 3.5rem; */
+  font-weight: 700;
+  margin-left: 300px;
+    margin-top: 0px; 
+    font-size: 5rem;
+  }
+
+  .a2 {
+    margin-right: 250px;
+    width: 400px;
+  }
+
+  .img {
+    margin-right: 300px;
+  }
+
+  .glitch {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, 0.75),
+    0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+
+  animation: glitch 500ms infinite;
+}
+
+.glitch span {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.glitch span:first-child {
+  animation: glitch 650ms infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+  transform: translate(-0.025em, -0.0125em);
+  opacity: 0.8;
+}
+
+.glitch span:last-child {
+  animation: glitch 375ms infinite;
+  clip-path: polygon(0 80%, 100% 20%, 100% 100%, 0 100%);
+  transform: translate(0.0125em, 0.025em);
+  opacity: 0.8;
+}
+
+ 
+  @keyframes glitch {
+  0% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  14% {
+    text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+      -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  15% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  49% {
+    text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+      0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  50% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  99% {
+    text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+      0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+  100% {
+    text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+      -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+      -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+  }
+}
+
+  .image {
+    margin-left: 750px;
+    border: 10px;
+    direction: row;
+
+  }
+
+  p1 {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px;
+  }
+
+  p2 {
+    margin-left: 0px;
+    font-size: 25px;
+    color: #fff;
+    width: 70vw;
+
+
+  }
+
+  h1 {
+    color: #fff;
+    font-size: 47px;
+    margin-top: 10px;
+
+  }
+
+  h3 {
+    color: darkgreen;
+  }
+
+  .skill-bar {
+    color: #fff;
+    font-size: 1.25rem;
+    margin-left: 70px;
+    /* margin-top: 0rem; */
+  }
+
+  .skills {
+    color: #fff;
+    height: auto;
+  }
+
+  .skill-start {
+    color: #fff;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill-percent {
+    color: #fff;
+    width: 80%;
+    margin-left: 0px;
+  }
+
+  .progress-bar {
+    width: 100%;
+    height: 0.5em;
+    margin-left: 70px;
+    /* margin-top: 0rem; */
+
+  }
+
+  .about-start {
+    text-align: center;
+  }
+
+  .in1 {
+    background-color: hsla(260, 100%, 44%, 0.778);
+    width: 70%;
+    height: 0.5em;
+  }
+
+  .in2 {
+    background-color: hsla(260, 100%, 44%, 0.778);
+    width: 50%;
+    height: 0.5em;
+  }
+
+  .in3 {
+    background-color: hsla(260, 100%, 44%, 0.778);
+    width: 65%;
+    height: 0.5em;
+  }
+
+  .in4 {
+    background-color: hsla(260, 100%, 44%, 0.778);
+    width: 50%;
+    height: 0.5em;
+  }
+
+  .in5 {
+    background-color: hsla(260, 100%, 44%, 0.778);
+    width: 80%;
+    height: 0.5em;
+  }
+
+  .skill-per {
+    margin-left: 900px;
+    font-size: 1.5rem;
+    color: hsla(260, 100%, 44%, 0.778);
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    color: hotpink;
+    margin-left: 70px;
+    margin-top: 0.6rem;
+
+  }
+ 
+
+  h5 {
+    font-size: 1.2rem;
+    margin-left: 70px;
+    margin-top: 0.6rem;
+  }
+
+  h6 {
+    font-size: 0.95rem;
+    margin-left: 70px;
+    margin-top: 0.6rem;
+  }
+
+  .Education-text {
+    color: #fff;
+    width: 90%;
+  }
+
+  .Education {
+    height: auto;
+  }
+
+  .Education-start {
+    height: auto;
+    display: flex;
+  }
+
+  .Experience-text {
+    color: #fff;
+    width: 90%;
+  }
+
+  .Experience {
+    height: auto;
+    
+  }
+
+  .Experience-start {
+    height: auto;
+    display: flex;
+  }
+  .Hobbies-text {
+    color: #fff;
+  }
+
+  .Hobbies {
+    height: auto;
+  }
+
+  .Hobbies-start {
+    height: auto;
+    
+  }
+  .Language-text {
+    color: #fff;
+  }
+
+  .Language {
+    height: auto;
+  }
+
+  .Language-start {
+    height: auto;
+    
+  }
+  .Contact-text {
+    color: #fff;
+  }
+
+  .Contact {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Contact-start {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  html {
+    height: 100%;
+  }
+
+  /* body {
+  display: flex;
+  height: 100%;
+  background-color: #333;
+} */
+  .icons {
+
+    padding-left: 50%;
+    padding-right: 15%;
+    justify-content: space-around;
+    width: 30vw;
+    display: flex;
+    flex-direction: initial;
+    gap: 90px;
+    margin-top: 4%;
+
+  }
+
+  .socials {
+    height: auto;
+    margin-left: 0px;
+    display: flex;
+    margin-bottom: 1rem;
+    /* flex-direction: column; */
+  }
+
+  
+  .dynamic-text{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25%;
+    font-weight: 400;
+    font-size:1.5rem;
+    font-weight: 400;
+    color: darkgreen;
+  }
+  .typed-cursor{
+    opacity: 1;
+  }
+  header{
+    background-color: #000000;
+    position: fixed;
+    border-bottom: 0.01rem solid rgba(128, 128, 128, 0.838);
+    width: 98.3vw;
+}
+.nav-link{
+  color: darkgreen;
+  font-weight: 900;
+}
+.imgggg{
+  margin-left: 20%;
+  margin-bottom: 20%;
+}
+  
+</style>
+
+
+
+<body>
+  <div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" id="mynavbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="font-size:1.5rem ; font-weight: 700;" href="#">Teenu Joshi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse collapses" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#Education">Education</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#Experience">Experience</a>
+              </li>
+              
+              <li class="nav-item">
+                  <a class="nav-link" href="#Hobbies">Hobbies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Language">Language</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+</header>
+</div>
+<div> " "</div>
+<div> " "</div>
+<div> " "</div>
+  <div class="jjjj">
+  <div class="abcd">
+    <p1>Hello I'm</p1>
+    <span>
+      <span style="float:right;width: 30%; margin-top: 5%;">
+        <div class="imgg" py-5>
+          <img src="pic.png" height="400" width="300"><br><br>
+        </div>
+      </span>
+    </div>
+      <!-- <div class="area">Teenu Joshi</div> -->
+      <div class="area">
+        <h1 class="glitch">
+            <span aria-hidden="true">Teenu Joshi</span>
+            Teenu Joshi
+            <span aria-hidden="true">Teenu Joshi</span>
+        </h1>
+    </div>
+      <span class="dynamic-text">
+
+      </span>
+      
+      
+    </span>
+  
+</div>
+  <div>
+    
+  </div>
+
+  <center>
+    <h1><p5 id="about">About Me</p5></h1>
+    <div>
+      <h3>Introduction</h3>
+    </div>
+  </center>
+  <section class="socials">
+    
+    <div class="image">
+      <div class="a2" style="float: left; display:inline-block;">
+        <span style="float: left;width: 20% ; margin-top: 10%; margin-bottom: 5%;">
+          <p2 class="sum" style="float:right; display:block; width: 900%;"> I am 18 years old. I live at Nanakmatta which is
+            situated in Uttarakhand. I am a second year undergraduate in SGTB Khalsa College, Delhi University pursuing
+            bachelors in computer science. I have completed my schooling in Vidhya Mandir's. I will complete my
+            graduation in 2024. My interest lies more in to do work.
+            
+          </p2>
+        </span>
+       
+      </div>
+
+    </div>
+  </section>
+
+
+  <div>
+    <center>
+      <section class="skills" id="skills">
+        <div class="about-start">
+          <h1>Skills</h1>
+        </div>
+        <div>
+          <h3>Skills</h3>
+        </div>
+
+  </div>
+  <div class="skill-start py-5">
+    <div class="skill-percent">
+      <div class="skill-bar">
+        <span>HTML & CSS</span>
+        <span class="skill-per">70%</span>
+
+      </div>
+      <div class="progress-bar">
+        <div class="in1"></div>
+      </div>
+
+      <div class="skill-bar">
+        <span><br>C++</span>
+        <span class="skill-per">50%</span>
+
+      </div>
+      <div class="progress-bar">
+        <div class="in2"></div>
+      </div>
+      <div class="skill-bar">
+        <span><br>JAVA</span>
+        <span class="skill-per">65%</span>
+
+      </div>
+      <div class="progress-bar">
+        <div class="in3"></div>
+      </div>
+      <div class="skill-bar">
+        <span><br>Javascript</span>
+        <span class="skill-per">50%</span>
+
+      </div>
+      <div class="progress-bar">
+        <div class="in4"></div>
+      </div>
+      <div class="skill-bar">
+        <span><br>Communication</span>
+        <span class="skill-per">80%</span>
+
+      </div>
+      <div class="progress-bar">
+        <div class="in5"></div>
+      </div>
+    </div>
+
+  </div>
+  </center>
+  </div>
+  </section>
+  <div>
+
+    <div>
+      <section class="Education" id="Education">
+        <!-- <div class="ab-head"> -->
+        <center>
+          <h1>Education</h1>
+        </center>
+        <center>
+          <h3>Education</h3>
+        </center>
+    </div>
+    <div class="Education-start">
+      <div class="Education-text py-5">
+        <span style="float:right;width: 30%; margin-top: 1%;">
+          <div class="imgggg padding-right: 50%" py-5>
+            <img src="edu.jpg" height="400" width="450"><br><br>
+          </div>
+        </span>
+        <div>
+          <h4>
+            <p>SGTB Khalsa, University of Delhi</p>
+          </h4>
+          <h5>Bachelor of Science in Computer Science (Hons Course)</h5>
+          <h6>Expected Graduation - Apr 2024</h6>
+        </div>
+        <div>
+          <h4>
+            <p>P.P.S.V.M.I.C, Nanakmatta - Mar 2021</p>
+          </h4>
+          <h5>Senior Secondary - Non Medical</h5>
+          <h6>Percentile: 98.2% (PCM)</h6>
+        </div>
+        <div>
+          <h4>
+            <p>P.P.S.V.M.I.C, Nanakmatta - Mar 2019</p>
+          </h4>
+          <h5>Matric</h5>
+          <h6>Percentile: 95%</h6>
+        </div>
+      </div>
+    </div>
+    </section>
+  </div>
+  <!-- </div> -->
+  <div>
+    <section class="Experience" id="Experience">
+      <!-- <div class="ab-head"> -->
+      <center>
+        <h1>Experience</h1>
+      </center>
+      <center>
+        <h3>Experience</h3>
+      </center>
+  </div>
+  <div class="Experience-start">
+    <div class="Experience-text ">
+      <div>
+        <span style="float:right;width: 30%; margin-top: 1%;">
+          <div class="imgggg padding-right: 50%" py-5>
+            <img src="exp.jpg" height="200" width="250"><br><br>
+          </div>
+        </span>
+        <h4>
+          <p>Curieux , The Computer Science Society</p>
+        </h4>
+        <h5>Content team member</h5>
+
+      </div>
+      <div>
+        <h4>
+          <p>Curieux , The Computer Science Society</p>
+        </h4>
+        <h5>Media team member(Recently Working)</h5>
+
+      </div>
+
+    </div>
+    </section>
+  </div>
+  <div>
+    <section class="Hobbies" id="Hobbies">
+      <!-- <div class="ab-head"> -->
+      <center>
+        <h1>Hobbies</h1>
+      </center>
+      <center>
+        <h3>Hobbies</h3>
+      </center>
+
+  </div>
+  <div class="Hobbies-start">
+    <div class="Hobbies-text">
+      <div class="py-5">
+        <h4>
+          <p>Listening to music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Travelling&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Dance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Photography
+          </p>
+        </h4>
+      </div>
+      <!-- <div>
+        <h4>
+          <p>Travelling</p>
+        </h4>
+      </div>
+      <div>
+        <h4>
+          <p>Dance</p>
+        </h4>
+      </div>
+      <div>
+        <h4>
+          <p>Photography</p>
+        </h4>
+      </div> -->
+
+    </div>
+    
+    <section class="Language" id="Language">
+      <!-- <div class="ab-head"> -->
+      <center>
+        <h1>Language</h1>
+      </center>
+      <center>
+        <h3>Language</h3>
+      </center>
+    <div class="Language-start">
+      <div class="Language-text">
+        <div class="py-5">
+          <h4>
+            <p>Hindi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Punjabi</p>
+            
+          </h4>
+        </div>
+        <!-- <div>
+          <h4>
+            <p>English</p>
+          </h4>
+        </div> -->
+        
+      </div>
+    </section>
+    <section class="Contact" id="Contact">
+      <!-- <div class="ab-head"> -->
+      <center>
+        <h1>Contact</h1>
+      </center>
+      <center>
+        <h3>Contact</h3>
+      </center>
+    <div class="Contact-start">
+      <div class="Contact-text">
+        <p2 style="color: hotpink;">
+          <i class="bx bx-male-female py-5" style="padding-left: 5%; color: white;"></i> &nbsp;&nbsp;Teenu Joshi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="bx bxl-whatsapp py-5" style="padding-left: 5%; color: white;"></i> &nbsp;&nbsp;7668246122&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <i class="bx bxl-gmail py-5 " style="padding-left: 5%; color: white;"></i> &nbsp;&nbsp;teenujoshi0304@gmail.com
+        </p2>
+      
+      <div class="icons">
+        <a href="https://instagram.com/teenujoshi09?igshid=YmMyMTA2M2Y="><i class="bx bxl-instagram" style="font-size: 2rem;"></i></a>
+        <a href="https://twitter.com/JoshiTeenu?t=VFYDGGHD91XZ9bmXvEdHvg&s=09"><i class="bx bxl-twitter" style="font-size: 2rem;"></i></a>
+        <a href="https://www.linkedin.com/in/teenu-joshi-394990229"><i class="bx bxl-linkedin" style="font-size: 2rem;"></i></a>
+        <a href="https://github.com/teenujoshi"><i class="bx bxl-github" style="font-size: 2rem;"></i></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCBkQvKTTtNmlfVPnPmrmXJFhMdDKCtwvJLnbHmNXWFLbKLxLBZpCPhJQtZNdnBWvZpklB"><i class="bx bxl-gmail" style="font-size: 2rem;"></i></a>
+      </div>
+    </div>
+  </div>
+
+    </section>
+    <div style="color: #fff; margin-top: 2%;">
+      <center>
+        <p>© Copyright Teenu Joshi-2022</p>
+      </center>
+      
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".dynamic-text", {
+            strings: [ "", "Computer Science Student", "Web Developer", "Student", "Software Developer" ],
+            typeSpeed: 60,
+            backSpeed: 20,
+            loop: true
+        })
+    </script>
+    <style>
+      @media screen and (max-width : 1250px) {
+    .bttn{
+        margin-top: 21rem;
+    }
+    .imgg
+    {
+        /* height: 20%;
+        width: 10%; */
+        margin-left: -1rem;
+        /* margin-top: -2rem; */
+       
+        
+    }
+    html{
+        font-size: 70%;
+    }
+    header{
+        position: relative;
+    }
+    .jjjj{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+     .abcd{
+        flex-direction: row;
+        margin-left: 0;
+        padding-top: 0;
+        justify-content: space-around;
+        width: 100%;
+    } 
+    .area{
+        flex-direction: row;
+        margin-left: 0;
+        padding-top: 0;
+        justify-content: space-around;
+        width: 20%;
+    } 
+    .socials{
+        flex-direction: row;
+        margin-left: 0;
+        padding-top: 0;
+        justify-content: space-around;
+        width: 70%;
+    } 
+ 
+    
+    .skills{
+        height: auto;
+        margin-left: 7rem;
+    }
+    .skill-percent{
+        width: 80%;
+        margin-left: 0;
+    }
+    .skill-per{
+        width: 80%;
+        margin-left: 0;
+    }
+   
+    .container-fluid{
+        align-items: right;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .Education-text
+    {
+        margin-left: 4.5rem;
+    }
+   
+    .p1{
+        margin-left: -2.5rem;
+    }
+    .p2 h1
+    {
+        font-size: 2.5rem;
+        margin-left: -9.5rem;
+    }
+    .sum
+    {
+        font-size: 0.51px;
+        margin-left: -1rem;
+        flex-direction: column;
+    }
+    .dynamic-text
+    {
+        margin-left: -0.1rem;
+    }
+    .sum{
+      width: -14rem;
+    }
+   
+    
+}
+@media screen and (max-width : 800px){
+    .inner{
+        flex-direction: column;
+    }
+}
+    </style>
+
+</html>
